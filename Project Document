@@ -1,0 +1,117 @@
+# 📊 E-Commerce Sales & Customer Analytics Dashboard
+
+## 1. Introduction
+
+In today’s data-driven world, businesses rely on analytics to make informed decisions. This project focuses on developing an interactive Power BI dashboard to analyze e-commerce sales data and extract meaningful insights.
+
+---
+
+## 2. Problem Statement
+
+Businesses generate large volumes of sales data but often struggle to extract useful insights. The goal of this project is to create a dashboard that simplifies data interpretation and supports decision-making.
+
+---
+
+## 3. Objectives
+
+* To analyze sales and profit performance
+* To identify top-performing products and customers
+* To understand regional sales distribution
+* To provide an interactive and user-friendly dashboard
+
+---
+
+## 4. Dataset Description
+
+The dataset used is the Superstore dataset from Kaggle, which contains:
+
+* Order details (Order ID, Date)
+* Customer information
+* Product categories
+* Sales, Profit, Quantity
+* Regional data
+
+---
+
+## 5. Data Cleaning & Preparation
+
+Data preprocessing was performed using Power Query:
+
+* Removed missing and error values
+* Converted data types appropriately
+* Removed duplicate entries
+* Ensured data consistency
+
+---
+
+## 6. Data Modeling
+
+* Created calculated measures using DAX:
+
+  * Total Sales
+  * Total Profit
+  * Total Orders
+  * Average Order Value
+* Ensured proper data relationships
+
+---
+
+## 7. Dashboard Design
+
+The dashboard is divided into sections:
+
+### 7.1 KPI Section
+
+Displays key metrics like total sales, profit, and orders.
+
+### 7.2 Sales Analysis
+
+* Line chart showing sales trends over time
+* Bar chart for category-wise performance
+
+### 7.3 Regional Analysis
+
+* Map visualization showing geographic sales distribution
+
+### 7.4 Customer Analysis
+
+* Table showing top customers
+* Segment analysis using pie chart
+
+### 7.5 Filters
+
+Interactive slicers for:
+
+* Date
+* Region
+* Category
+
+---
+
+## 8. Key Insights
+
+* Sales increased significantly over time
+* Technology category contributed the highest revenue
+* A small group of customers contributes a large portion of total sales
+* Regional differences impact performance
+
+---
+
+## 9. Conclusion
+
+The dashboard successfully provides a comprehensive overview of sales performance and customer insights. It enables stakeholders to make informed decisions quickly and efficiently.
+
+---
+
+## 10. Future Enhancements
+
+* Integration with real-time data
+* Sales forecasting using machine learning
+* Customer segmentation using clustering
+
+---
+
+## 11. References
+
+* Kaggle Dataset
+* Power BI Documentation
